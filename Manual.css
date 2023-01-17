@@ -1,0 +1,256 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#mainNav .navbar-brand {
+  color: #fa4c4c;
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+  height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fa4c4c;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 2rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand svg,
+#mainNav.navbar-shrink .navbar-brand img {
+    height: 1.5rem;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+
+/*** Hero Header ***/
+.hero-header {
+  background: linear-gradient(#222837e6, #222837e6), url(img/Hero\ image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+#heroImage .btn.btn-outline-light.py-sm-3.px-sm-5:hover{
+  color: #ffffff;
+  border-color: #fa4c4c;
+  background-color: #fa4c4c;
+}
+
+
+#aboutus {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+#aboutus .btn.btn-outline-dark:hover{
+  color: #ffffff;
+  border-color: #fa4c4c;
+  background-color: #fa4c4c;
+}
+
+#layanan {
+  padding-top: 2rem;
+}
+
+#layanan a {
+  background-color: #fa4c4c;
+  color: white;
+}
+
+#layanan a:hover {
+  background-color: #ed3232;
+  color: white;
+}
+
+#Review{
+  background-color: #f3f4f5;
+}
+#Review p{
+  color: #555;
+}
+
+#Review .card:hover{
+  background-color: #ed3232;
+}
+
+#Review .card:hover h4{
+  color: #ffffff;
+}
+
+#Review .card:hover span{
+  color: #ffffff;
+}
+
+#Review .card:hover p{
+  color: #ffffff;
+}
+
+#Review .carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ed3232;
+}
+
+.card {
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow, 0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+#reservation {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+#reservation button {
+  background-color: #fa4c4c;
+  color: white;
+}
+
+#reservation button:hover {
+  background-color: #ed3232;
+  color: white;
+}
+
+#dokumentasi{
+  background-color: #ffffff;
+}
+
+#dokumentasi .container-fluid, #dokumentasi .container-sm, #dokumentasi .container-md, #dokumentasi .container-lg, #dokumentasi .container-xl, #dokumentasi .container-xxl {
+  max-width: 1920px;
+}
+#dokumentasi .container-fluid .dokumentasi-box, #dokumentasi .container-sm .dokumentasi-box, #dokumentasi .container-md .dokumentasi-box, #dokumentasi .container-lg .dokumentasi-box, #dokumentasi .container-xl .dokumentasi-box, #dokumentasi .container-xxl .dokumentasi-box {
+  position: relative;
+  display: block;
+}
+#dokumentasi .container-fluid .dokumentasi-box .dokumentasi-box-caption, #dokumentasi .container-sm .dokumentasi-box .dokumentasi-box-caption, #dokumentasi .container-md .dokumentasi-box .dokumentasi-box-caption, #dokumentasi .container-lg .dokumentasi-box .dokumentasi-box-caption, #dokumentasi .container-xl .dokumentasi-box .dokumentasi-box-caption, #dokumentasi .container-xxl .dokumentasi-box .dokumentasi-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #ffffff;
+  background: rgb(250, 76, 76, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#dokumentasi .container-fluid .dokumentasi-box .dokumentasi-box-caption .project-category, #dokumentasi .container-sm .dokumentasi-box .dokumentasi-box-caption .project-category, #dokumentasi .container-md .dokumentasi-box .dokumentasi-box-caption .project-category, #dokumentasi .container-lg .dokumentasi-box .dokumentasi-box-caption .project-category, #dokumentasi .container-xl .dokumentasi-box .dokumentasi-box-caption .project-category, #dokumentasi .container-xxl .dokumentasi-box .dokumentasi-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#dokumentasi .container-fluid .dokumentasi-box .dokumentasi-box-caption .project-name, #dokumentasi .container-sm .dokumentasi-box .dokumentasi-box-caption .project-name, #dokumentasi .container-md .dokumentasi-box .dokumentasi-box-caption .project-name, #dokumentasi .container-lg .dokumentasi-box .dokumentasi-box-caption .project-name, #dokumentasi .container-xl .dokumentasi-box .dokumentasi-box-caption .project-name, #dokumentasi .container-xxl .dokumentasi-box .dokumentasi-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#dokumentasi .container-fluid .dokumentasi-box:hover .dokumentasi-box-caption, #dokumentasi .container-sm .dokumentasi-box:hover .dokumentasi-box-caption, #dokumentasi .container-md .dokumentasi-box:hover .dokumentasi-box-caption, #dokumentasi .container-lg .dokumentasi-box:hover .dokumentasi-box-caption, #dokumentasi .container-xl .dokumentasi-box:hover .dokumentasi-box-caption, #dokumentasi .container-xxl .dokumentasi-box:hover .dokumentasi-box-caption {
+  opacity: 1;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.916), rgba(0, 0, 0, 0.834)), url(img/gambar2.jpg);
+}
+
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border: 1px solid #ffffff;
+  border-radius: 35px;
+  transition: 0.3s;
+}
+
+.footer h4 {
+  color: rgb(255, 255, 255);
+}
+.footer h6 {
+  color: rgb(255, 255, 255);
+}
+
+.footer p {
+  color: rgb(210, 210, 210);
+}
+
+.footer .btn.btn-social {
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer .btn.btn-social:hover {
+  color: #fa4c4c;
+  border-color: #fff;
+  background-color: rgb(235, 235, 235);
+}
+
+.footer h6 a.IgHernanda{
+  color: #ffffff;
+}
+.footer h6 a.IgHernanda:hover{
+  color: #fa4c4c;
+}

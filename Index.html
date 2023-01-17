@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="Manual.css" />
+
+    <link rel="icon" href="img/Logo.png" />
+    <title>Restoran Sederhana</title>
+
+    <!-- NavBar -->
+  </head>
+  <body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <img src="img/Logo.png" width="8%" />
+        <a class="navbar-brand" href="#home"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#brLayanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#br-dokumentasi">Galery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#br-reservation">Reservation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Image -->
+    <div id="heroImage">
+      <div class="container-fluid py-5 bg-dark hero-header shadow-lg">
+        <div class="container my-5 py-5">
+          <div class="row align-items-center g-3">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h1 class="display-3 text-white fw-bold">#1 Nasi Padang Restaurant<br />In Indonesia</h1>
+              <p class="text-white mb-4 pb-2">
+                Nasi padang adalah nasi putih yang disajikan dengan berbagai macam lauk-pauk khas masakan dari suku minangkabau Indonesia. Disajikan secara lengkap secara prasmanan dengan daging, ikan, sayuran, dan makanan pedas yang
+                dimakan dengan nasi putih.
+              </p>
+              <a href="#br-reservation" class="btn btn-outline-light py-sm-3 px-sm-5">Book A Table</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Navbar -->
+
+    <!-- About us & Layanan -->
+    <section id="aboutus" class="container-fluid text-center" data-aos="fade-up" data-aos-duration="1500">
+      <div class="title mb-4">
+        <h6 class="text-center" style="color: #ed3232">History</h6>
+        <h2 class="text-center text-uppercase">resep andalan turun temurun</h2>
+      </div>
+      <img src="img/Foto Pendiri asli.jpg" alt="Pendiri" width="200" class="rounded-circle img-thumbnail" />
+      <p id="pengertian" class="justify-content-center text-center container-fluid pt-2">
+        Restoran Sederhana berawal pada tahun 1972 dari sebuah rumah makan Padang kecil milik Bustaman di Pasar Bendungan Hilir, Jakarta. Bustaman yang berasal dari Lintau, Sumatra Barat, selalu menyesuaikannya dengan lidah orang
+        kebanyakan, sehingga ia mengurangi rasa pedas dalam masakan Padang buatannya. Ia juga memiliki hidangan khusus, yakni Ayam Pop yang telah dikenal luas.
+      </p>
+      <button type="button" class="btn btn-outline-dark">About Us</button>
+      <br id="brLayanan" />
+      <br />
+    </section>
+    <!-- layanan -->
+    <section id="layanan" class="container" data-aos="fade-up" data-aos-duration="1500">
+      <div class="title mb-4">
+        <h6 class="text-center" style="color: #ed3232">Services</h6>
+        <h2 id="judul-review" class="text-center text-uppercase">pelayanan prima untuk anda</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="card">
+            <img src="img/menu.jpeg" class="card-img-top" alt="Menu" />
+            <div class="card-body mb-1">
+              <p class="card-text">
+                Restoran kami menyediakan beragam jenis masakan padang dengan rasa otentik Indonesia. Bumbu-bumbu pilihan asli rempah Indonesia membuat masakan kami selalu menjadi rasa yang tak pernah bisa dilupakan oleh pelanggan kami.
+              </p>
+              <a href="#" class="btn">Menu</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mb-2">
+          <div class="card">
+            <img src="img/nasi kotak.jpg" class="card-img-top" alt="Catering" />
+            <div class="card-body">
+              <p class="card-text">
+                Kami menyediakan layanan catering untuk membantu anda dalam segala kegiatan. Kami juga menyediakan berbagai paket sesuai dengan kebutuhan pelanggan kami. Makanan kami dijamin fresh dan siap untuk dimakan kapan saja.
+              </p>
+              <a href="#" class="btn">Catering</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Layanan -->
+    <!-- Review -->
+    <section id="Review" class="shadow-sm" data-aos="fade-up" data-aos-duration="1500">
+      <div class="container-lg py-5">
+        <div class="title mb-4">
+          <h6 class="text-center" style="color: #ed3232">Review</h6>
+          <h2 class="text-center text-uppercase">Apa kata pelanggan kami?</h2>
+        </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators" style="bottom: -40px">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="8000">
+              <div class="row mx-2">
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/gordonramsay.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Gordon Ramsay</h4>
+                      <span style="color: grey">Chef</span>
+                      <hr />
+                      <p>"Nasi padang merupakan salah satu makanan terenak yang ada di dunia dan termasuk makanan favorit saya"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/chef juna.jpeg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Juna</h4>
+                      <span style="color: grey">Chef</span>
+                      <hr />
+                      <p>"Rumah makan ini merupakan salah satu rumah makan padang favorit saya karena bumbu mereka yang sangat <i>rich.</i>"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/chef arnold.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Arnold Poernomo</h4>
+                      <span style="color: grey">Chef</span>
+                      <hr />
+                      <p>"Rumah Makan Padang Sederhana Jozz!!! Pecinta nasi padang wajib makan disini, dijamin maknyuss!!! banyak pilihan lauknya"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/Chef Renata.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Renatta Moeloek</h4>
+                      <span style="color: grey">Chef</span>
+                      <hr />
+                      <p>"Lauk yang bervariasi dengan bumbu khas minangkabau yang sangat lezat membuat saya senang dengan resto ini."</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="7000">
+              <div class="row mx-2">
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/Raffi-Ahmad.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Raffi Ahmad</h4>
+                      <span style="color: grey">Artis</span>
+                      <hr />
+                      <p>"RM Padang Sederhana emang juara di Indonesia. Ayam pop nya gilaa enak banget! Selalu kalap makan disini"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/raisa.png" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Raisa</h4>
+                      <span style="color: grey">Artis</span>
+                      <hr />
+                      <p>"RM Padang Sederhana tapi rasanya ngga sesederhana itu, Rasanya kaya banget! gatau mau ngomong apalagi."</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/rossa.png" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Rossa</h4>
+                      <span style="color: grey">Artis</span>
+                      <hr />
+                      <p>"Masakan padangnya bikin kangenn, sebelum manggung pasti makan disini. Rendang-nya <i>The Best!!</i>"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/rezza rahardian.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Reza Rahardian</h4>
+                      <span style="color: grey">Artis</span>
+                      <hr />
+                      <p>"Masakan padang termasuk makananan favorit saya dan RM Padang Sederhana merupakan resto padang favorit saya "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="7000">
+              <div class="row mx-2">
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/jerome-polin.jpeg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Jerome Polin</h4>
+                      <span style="color: grey">Youtuber</span>
+                      <hr />
+                      <p>"Nasi Padangnya Mantappu Djiwaaa!! Selalu nyempetin makan disini kalau lagi pulang ke Indonesia. Waseda Boys juga suka"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/ria ricis.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Ria Ricis</h4>
+                      <span style="color: grey">Youtuber</span>
+                      <hr />
+                      <p>"Sukaaa banget sama nasi padangnya. RM Padang Sederhana selalu jadi langganan kalo makan nasi padang"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/nex-carlos.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Nex Carlos</h4>
+                      <span style="color: grey">Youtuber</span>
+                      <hr />
+                      <p>"Nasi padangnya Badabestt!!! Gaada Obat!!! salah satu rekomendasi nasi padang di Indonesia kalian semua musti cobain"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 my-3">
+                  <div class="card text-center">
+                    <img src="img/ria sw.jpg" class="card-img-top rounded-circle shadow-sm rounded" style="margin: 15px auto -5px auto; width: 10rem" />
+                    <div class="card-body">
+                      <h4>Ria SW</h4>
+                      <span style="color: grey">Youtuber</span>
+                      <hr />
+                      <p>"Restoran Padang paling favorit di Indonesia. Selalu jadi andalan dikala pengen nasi padang. Rasanya tidak pernah mengecewakan "</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Review -->
+    <br id="br-dokumentasi" />
+    <br />
+    <br />
+
+    <!-- Dokumentasi -->
+    <div id="dokumentasi" data-aos="fade-up" data-aos-duration="1500">
+      <h6 class="text-center" style="color: #ed3232">Galery</h6>
+      <h2 class="text-center">Lihat Berbagai Masakan Kami</h2>
+      <br />
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-lg-4 col-sm-6">
+            <a class="dokumentasi-box" href="img/Dokumentasi/rendang.png" title="Rendang">
+              <img class="img-fluid" src="img/Dokumentasi/rendang.png" alt="..." />
+              <div class="dokumentasi-box-caption">
+                <div class="project-category text-white-50">Dokumentasi</div>
+                <div class="project-name">Rendang</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="dokumentasi-box" href="img/Dokumentasi/ayam-pop.png" title="Ayam Pop">
+              <img class="img-fluid" src="img/Dokumentasi/ayam-pop.png" alt="..." />
+              <div class="dokumentasi-box-caption">
+                <div class="project-category text-white-50">Dokumentasi</div>
+                <div class="project-name">Ayam Pop</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="dokumentasi-box" href="img/Dokumentasi/jus.png" title="Jus Buah">
+              <img class="img-fluid" src="img/Dokumentasi/jus.png" alt="..." />
+              <div class="dokumentasi-box-caption">
+                <div class="project-category text-white-50">Dokumentasi</div>
+                <div class="project-name">Jus Buah</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="dokumentasi-box" href="img/Dokumentasi/nasi-padang.png" title="Nasi Padang">
+              <img class="img-fluid" src="img/Dokumentasi/nasi-padang.png" alt="..." />
+              <div class="dokumentasi-box-caption">
+                <div class="project-category text-white-50">Dokumentasi</div>
+                <div class="project-name">Nasi Padang</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="dokumentasi-box" href="img/Dokumentasi/gulai-ikan.png" title="Gulai Ikan">
+              <img class="img-fluid" src="img/Dokumentasi/gulai-ikan.png" alt="..." />
+              <div class="dokumentasi-box-caption">
+                <div class="project-category text-white-50">Dokumentasi</div>
+                <div class="project-name">Gulai Ikan</div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="dokumentasi-box" href="img/Dokumentasi/telur-balado.png" title="Telur Balado">
+              <img class="img-fluid" src="img/Dokumentasi/telur-balado.png" alt="..." />
+              <div class="dokumentasi-box-caption p-3">
+                <div class="project-category text-white-50">Dokumentasi</div>
+                <div class="project-name">Telur Balado</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br id="br-reservation" />
+    <br />
+
+    <!-- Reservasi -->
+    <section id="reservation" data-aos="fade-up" data-aos-duration="1500">
+      <div class="container">
+        <h6 class="text-center" style="color: #ed3232">Book A Table</h6>
+        <h2 class="text-center text-uppercase">RESERVASI sekarang juga!</h2>
+        <p class="text-center">Lakukan reservasi agar tidak kehabisan tempat!</p>
+        <form class="row justify-content-center g-0" style="padding-top: 2rem">
+          <div class="col-sm-2">
+            <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+            <select class="form-select" id="specificSizeSelect">
+              <option selected>Kota</option>
+              <option value="1">Jakarta</option>
+              <option value="2">Bandung</option>
+              <option value="3">Surabaya</option>
+              <option value="4">Padang</option>
+              <option value="4">Yogyakarta</option>
+            </select>
+          </div>
+          <div class="col-sm-2">
+            <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+            <select class="form-select" id="specificSizeSelect">
+              <option selected>Cabang</option>
+              <option value="1">Mangga Dua</option>
+              <option value="2">Sarinah</option>
+              <option value="3">Sudirman</option>
+              <option value="4">PIK</option>
+              <option value="5">Pulo Gadung</option>
+            </select>
+          </div>
+          <section class="col-sm-2">
+            <div class="row form-group">
+              <div class="input-group date" id="datepicker">
+                <input type="text" class="form-control" placeholder="Tanggal" />
+                <span class="input-group-append">
+                  <span class="input-group-text bg-white d-block">
+                    <i class="fa fa-calendar"></i>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </section>
+
+          <div class="col-auto" style="padding-left: 0.2rem">
+            <button type="submit" class="btn">Cari Tempat</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <!-- Akhir Reservasi -->
+
+    <!-- Footer Start -->
+    <div id="footer" class="container-fluid footer pt-2 shadow-lg">
+      <div class="container py-3">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6">
+            <h4 class="section-title text-start fw-bold text-center">Kontak</h4>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62 811-9911-972</p>
+            <p class="mb-2"><i class="fa fa-fax me-3"></i> (0222) 12345</p>
+            <p class="mb-2"><i class="fa fa-envelope me-3"></i>RMSederhana@gmail.com</p>
+            <p class="mb-2"><i class="fa fa-solid fa-clock me-3"></i>08.00 AM - 11.00 PM</p>
+            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Sunan Giri 1/6 Rawamangun Pulo Gadung,Jakarta Timur DKI Jakarta 13220</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="section-title ff-secondary text-start fw-bold text-center">Media Sosial</h4>
+            <div class="d-flex pt-4 justify-content-center">
+              <a class="btn btn-social" href=""><i class="fab fa-twitter"></i></a>
+              <a class="btn btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-social" href=""><i class="fab fa-youtube"></i></a>
+              <a class="btn btn-social" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!--Google map-->
+            <h4 class="section-title fw-bold text-center">Cari Kami</h4>
+            <div id="map" class="d-flex mb-1 justify-content-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d732.2302169628824!2d106.88266145544216!3d-6.1965620313204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f4949dc84d9f%3A0xe147a7971178193!2sRestoran%20Sederhana%20(SA)%20Masakan%20Padang%20-%20Rawamangun!5e0!3m2!1sid!2sid!4v1671275537530!5m2!1sid!2sid"
+                width="10000"
+                height="200"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <!-- Akhir Google Maps-->
+          </div>
+        </div>
+        <div>
+          <h6 style="text-align: center; margin-top: 1em; margin-bottom: 0">© 2022. All Right Reserved. Made by <a class="IgHernanda" href="http://instagram.com/herdzap" style="text-decoration: none">Hernanda Dzaki</a></h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kumpulan JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="scrip.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+  </body>
+</html>
